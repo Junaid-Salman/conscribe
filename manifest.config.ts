@@ -3,7 +3,7 @@ import { defineManifest } from '@crxjs/vite-plugin';
 export default defineManifest({
   manifest_version: 3,
   name: 'Conscribe',
-  version: '1.0.0',
+  version: '1.0.1',
   description:
     'Package console errors, failed requests, the broken element and a screenshot into one agent-ready Markdown report.',
   minimum_chrome_version: '118',
