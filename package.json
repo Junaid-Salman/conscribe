@@ -1,6 +1,6 @@
 {
   "name": "conscribe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package console errors, failed requests, the broken element and a screenshot into one agent-ready Markdown report.",
   "private": true,
   "license": "MIT",
@@ -18,7 +18,8 @@
     "demo:verify": "node scripts/demo-verify.mjs",
     "build:debug": "tsc --noEmit && vite build --mode debug",
     "package": "node scripts/package.mjs",
-    "store:check": "node scripts/package.mjs check"
+    "store:check": "node scripts/package.mjs check",
+    "icons": "node scripts/icons.mjs"
   },
   "repository": {
     "type": "git",
